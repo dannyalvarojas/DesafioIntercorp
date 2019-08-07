@@ -1,0 +1,6 @@
+framework module Pods_Desfio_Intercorp {
+  umbrella header "Pods-Desfio Intercorp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E38A63E65D662FD706E3F59 /* Pods_Desfio_Intercorp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5FCBB0441D358C04559947 /* Pods_Desfio_Intercorp.framework */; };
+		EA1A592E22F8AEB3003EAE8B /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A592D22F8AEB3003EAE8B /* SendMessageViewController.swift */; };
+		EA1A593322F8BFD9003EAE8B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A593222F8BFD9003EAE8B /* Utils.swift */; };
+		EA1A593722F8C4DD003EAE8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A593622F8C4DD003EAE8B /* Constants.swift */; };
+		EA1A593922F8D0B6003EAE8B /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A593822F8D0B6003EAE8B /* AddUserViewController.swift */; };
+		EA1A593B22F8D1E4003EAE8B /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A593A22F8D1E4003EAE8B /* VerificationCodeViewController.swift */; };
+		EA1A593E22FA1D8B003EAE8B /* FirebaseDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A593D22FA1D8B003EAE8B /* FirebaseDataBase.swift */; };
+		EA1A594122FA3E85003EAE8B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A594022FA3E85003EAE8B /* User.swift */; };
+		EA1A594522FA7F55003EAE8B /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A594422FA7F55003EAE8B /* UserListViewController.swift */; };
+		EA1A594822FB1D66003EAE8B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A594722FB1D66003EAE8B /* UserCell.swift */; };
+		EA1A594A22FB25AA003EAE8B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A594922FB25AA003EAE8B /* Loader.swift */; };
+		EA1A594C22FB33CB003EAE8B /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1A594B22FB33CB003EAE8B /* LoginStoryboard.storyboard */; };
+		EA72BDC922EB37A200D137A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72BDC822EB37A200D137A9 /* AppDelegate.swift */; };
+		EA72BDCB22EB37A200D137A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72BDCA22EB37A200D137A9 /* LoginViewController.swift */; };
+		EA72BDCE22EB37A200D137A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA72BDCC22EB37A200D137A9 /* Main.storyboard */; };
+		EA72BDD122EB37A200D137A9 /* Desfio_Intercorp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA72BDCF22EB37A200D137A9 /* Desfio_Intercorp.xcdatamodeld */; };
+		EA72BDD322EB37A300D137A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA72BDD222EB37A300D137A9 /* Assets.xcassets */; };
+		EA72BDD622EB37A300D137A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA72BDD422EB37A300D137A9 /* LaunchScreen.storyboard */; };
+		EA72BDE122EB37A300D137A9 /* Desfio_IntercorpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72BDE022EB37A300D137A9 /* Desfio_IntercorpTests.swift */; };
+		EAB17FAB22ECBCC900E54134 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB17FAA22ECBCC900E54134 /* UIButton+Extension.swift */; };
+		EAB17FAD22ECC39500E54134 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAB17FAC22ECC39500E54134 /* GoogleService-Info.plist */; };
+		F79415A04877EFF64F2E78F3 /* Pods_Desfio_IntercorpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A02D4E06562BDEC5D90596B /* Pods_Desfio_IntercorpTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA72BDDD22EB37A300D137A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA72BDBD22EB37A200D137A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA72BDC422EB37A200D137A9;
+			remoteInfo = "Desfio Intercorp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5D3D361C28866D121A1D04 /* Pods-Desfio IntercorpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desfio IntercorpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desfio IntercorpTests/Pods-Desfio IntercorpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A02D4E06562BDEC5D90596B /* Pods_Desfio_IntercorpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desfio_IntercorpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAED8C4517389EEEC05C5D1 /* Pods-Desfio Intercorp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desfio Intercorp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desfio Intercorp/Pods-Desfio Intercorp.release.xcconfig"; sourceTree = "<group>"; };
+		AECC990BD4571DBBB3299894 /* Pods-Desfio IntercorpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desfio IntercorpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desfio IntercorpTests/Pods-Desfio IntercorpTests.release.xcconfig"; sourceTree = "<group>"; };
+		D66ED3D27FD8F6D3ED74C5E5 /* Pods-Desfio Intercorp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desfio Intercorp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desfio Intercorp/Pods-Desfio Intercorp.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5FCBB0441D358C04559947 /* Pods_Desfio_Intercorp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desfio_Intercorp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A592D22F8AEB3003EAE8B /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		EA1A593222F8BFD9003EAE8B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EA1A593622F8C4DD003EAE8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA1A593822F8D0B6003EAE8B /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		EA1A593A22F8D1E4003EAE8B /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		EA1A593D22FA1D8B003EAE8B /* FirebaseDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataBase.swift; sourceTree = "<group>"; };
+		EA1A594022FA3E85003EAE8B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EA1A594422FA7F55003EAE8B /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		EA1A594722FB1D66003EAE8B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		EA1A594922FB25AA003EAE8B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		EA1A594B22FB33CB003EAE8B /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		EA72BDC522EB37A200D137A9 /* Desfio Intercorp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desfio Intercorp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA72BDC822EB37A200D137A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA72BDCA22EB37A200D137A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA72BDCD22EB37A200D137A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA72BDD022EB37A200D137A9 /* Desfio_Intercorp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Desfio_Intercorp.xcdatamodel; sourceTree = "<group>"; };
+		EA72BDD222EB37A300D137A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA72BDD522EB37A300D137A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA72BDD722EB37A300D137A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA72BDDC22EB37A300D137A9 /* Desfio IntercorpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desfio IntercorpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA72BDE022EB37A300D137A9 /* Desfio_IntercorpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desfio_IntercorpTests.swift; sourceTree = "<group>"; };
+		EA72BDE222EB37A300D137A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB17FA422ECA9DE00E54134 /* Desfio Intercorp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Desfio Intercorp.entitlements"; sourceTree = "<group>"; };
+		EAB17FAA22ECBCC900E54134 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		EAB17FAC22ECC39500E54134 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA72BDC222EB37A200D137A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E38A63E65D662FD706E3F59 /* Pods_Desfio_Intercorp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72BDD922EB37A300D137A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79415A04877EFF64F2E78F3 /* Pods_Desfio_IntercorpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CCFC11022AAA4E73A77534 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D66ED3D27FD8F6D3ED74C5E5 /* Pods-Desfio Intercorp.debug.xcconfig */,
+				8CAED8C4517389EEEC05C5D1 /* Pods-Desfio Intercorp.release.xcconfig */,
+				0D5D3D361C28866D121A1D04 /* Pods-Desfio IntercorpTests.debug.xcconfig */,
+				AECC990BD4571DBBB3299894 /* Pods-Desfio IntercorpTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93913D647D66EF9E56E42456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5FCBB0441D358C04559947 /* Pods_Desfio_Intercorp.framework */,
+				5A02D4E06562BDEC5D90596B /* Pods_Desfio_IntercorpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1A592F22F8BFA8003EAE8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A593222F8BFD9003EAE8B /* Utils.swift */,
+				EA1A593622F8C4DD003EAE8B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA1A593C22FA1D41003EAE8B /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A593D22FA1D8B003EAE8B /* FirebaseDataBase.swift */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		EA1A593F22FA3E71003EAE8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A594022FA3E85003EAE8B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA1A594622FB1C4F003EAE8B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A594722FB1D66003EAE8B /* UserCell.swift */,
+				EA1A594922FB25AA003EAE8B /* Loader.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EA72BDBC22EB37A200D137A9 = {
+			isa = PBXGroup;
+			children = (
+				EA72BDC722EB37A200D137A9 /* Desfio Intercorp */,
+				EA72BDDF22EB37A300D137A9 /* Desfio IntercorpTests */,
+				EA72BDC622EB37A200D137A9 /* Products */,
+				40CCFC11022AAA4E73A77534 /* Pods */,
+				93913D647D66EF9E56E42456 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA72BDC622EB37A200D137A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA72BDC522EB37A200D137A9 /* Desfio Intercorp.app */,
+				EA72BDDC22EB37A300D137A9 /* Desfio IntercorpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA72BDC722EB37A200D137A9 /* Desfio Intercorp */ = {
+			isa = PBXGroup;
+			children = (
+				EAB17FA722ECBC7A00E54134 /* Sources */,
+				EAB17FA422ECA9DE00E54134 /* Desfio Intercorp.entitlements */,
+				EA72BDC822EB37A200D137A9 /* AppDelegate.swift */,
+				EA72BDCC22EB37A200D137A9 /* Main.storyboard */,
+				EA1A594B22FB33CB003EAE8B /* LoginStoryboard.storyboard */,
+				EA72BDD222EB37A300D137A9 /* Assets.xcassets */,
+				EA72BDD422EB37A300D137A9 /* LaunchScreen.storyboard */,
+				EA72BDD722EB37A300D137A9 /* Info.plist */,
+				EAB17FAC22ECC39500E54134 /* GoogleService-Info.plist */,
+				EA72BDCF22EB37A200D137A9 /* Desfio_Intercorp.xcdatamodeld */,
+			);
+			path = "Desfio Intercorp";
+			sourceTree = "<group>";
+		};
+		EA72BDDF22EB37A300D137A9 /* Desfio IntercorpTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA72BDE022EB37A300D137A9 /* Desfio_IntercorpTests.swift */,
+				EA72BDE222EB37A300D137A9 /* Info.plist */,
+			);
+			path = "Desfio IntercorpTests";
+			sourceTree = "<group>";
+		};
+		EAB17FA722ECBC7A00E54134 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A594622FB1C4F003EAE8B /* CustomViews */,
+				EA1A593F22FA3E71003EAE8B /* Model */,
+				EA1A593C22FA1D41003EAE8B /* Connect */,
+				EA1A592F22F8BFA8003EAE8B /* Utils */,
+				EAB17FA922ECBCA900E54134 /* Extensions */,
+				EAB17FA822ECBCA000E54134 /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EAB17FA822ECBCA000E54134 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA72BDCA22EB37A200D137A9 /* LoginViewController.swift */,
+				EA1A592D22F8AEB3003EAE8B /* SendMessageViewController.swift */,
+				EA1A593822F8D0B6003EAE8B /* AddUserViewController.swift */,
+				EA1A593A22F8D1E4003EAE8B /* VerificationCodeViewController.swift */,
+				EA1A594422FA7F55003EAE8B /* UserListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAB17FA922ECBCA900E54134 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EAB17FAA22ECBCC900E54134 /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA72BDC422EB37A200D137A9 /* Desfio Intercorp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72BDE522EB37A300D137A9 /* Build configuration list for PBXNativeTarget "Desfio Intercorp" */;
+			buildPhases = (
+				23B19F5978A70A76E088E8F1 /* [CP] Check Pods Manifest.lock */,
+				EA72BDC122EB37A200D137A9 /* Sources */,
+				EA72BDC222EB37A200D137A9 /* Frameworks */,
+				EA72BDC322EB37A200D137A9 /* Resources */,
+				7B65CBA694A31E45B418CB55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desfio Intercorp";
+			productName = "Desfio Intercorp";
+			productReference = EA72BDC522EB37A200D137A9 /* Desfio Intercorp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA72BDDB22EB37A300D137A9 /* Desfio IntercorpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72BDE822EB37A300D137A9 /* Build configuration list for PBXNativeTarget "Desfio IntercorpTests" */;
+			buildPhases = (
+				2B69A995B9EC3849A1F51432 /* [CP] Check Pods Manifest.lock */,
+				EA72BDD822EB37A300D137A9 /* Sources */,
+				EA72BDD922EB37A300D137A9 /* Frameworks */,
+				EA72BDDA22EB37A300D137A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA72BDDE22EB37A300D137A9 /* PBXTargetDependency */,
+			);
+			name = "Desfio IntercorpTests";
+			productName = "Desfio IntercorpTests";
+			productReference = EA72BDDC22EB37A300D137A9 /* Desfio IntercorpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA72BDBD22EB37A200D137A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Danny Alva";
+				TargetAttributes = {
+					EA72BDC422EB37A200D137A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					EA72BDDB22EB37A300D137A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EA72BDC422EB37A200D137A9;
+					};
+				};
+			};
+			buildConfigurationList = EA72BDC022EB37A200D137A9 /* Build configuration list for PBXProject "Desfio Intercorp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA72BDBC22EB37A200D137A9;
+			productRefGroup = EA72BDC622EB37A200D137A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA72BDC422EB37A200D137A9 /* Desfio Intercorp */,
+				EA72BDDB22EB37A300D137A9 /* Desfio IntercorpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA72BDC322EB37A200D137A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72BDD622EB37A300D137A9 /* LaunchScreen.storyboard in Resources */,
+				EA1A594C22FB33CB003EAE8B /* LoginStoryboard.storyboard in Resources */,
+				EAB17FAD22ECC39500E54134 /* GoogleService-Info.plist in Resources */,
+				EA72BDD322EB37A300D137A9 /* Assets.xcassets in Resources */,
+				EA72BDCE22EB37A200D137A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72BDDA22EB37A300D137A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23B19F5978A70A76E088E8F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desfio Intercorp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B69A995B9EC3849A1F51432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desfio IntercorpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B65CBA694A31E45B418CB55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Desfio Intercorp/Pods-Desfio Intercorp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desfio Intercorp/Pods-Desfio Intercorp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA72BDC122EB37A200D137A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72BDCB22EB37A200D137A9 /* LoginViewController.swift in Sources */,
+				EA1A594822FB1D66003EAE8B /* UserCell.swift in Sources */,
+				EA1A592E22F8AEB3003EAE8B /* SendMessageViewController.swift in Sources */,
+				EAB17FAB22ECBCC900E54134 /* UIButton+Extension.swift in Sources */,
+				EA1A593B22F8D1E4003EAE8B /* VerificationCodeViewController.swift in Sources */,
+				EA1A593922F8D0B6003EAE8B /* AddUserViewController.swift in Sources */,
+				EA1A594522FA7F55003EAE8B /* UserListViewController.swift in Sources */,
+				EA1A593E22FA1D8B003EAE8B /* FirebaseDataBase.swift in Sources */,
+				EA72BDD122EB37A200D137A9 /* Desfio_Intercorp.xcdatamodeld in Sources */,
+				EA1A593722F8C4DD003EAE8B /* Constants.swift in Sources */,
+				EA72BDC922EB37A200D137A9 /* AppDelegate.swift in Sources */,
+				EA1A593322F8BFD9003EAE8B /* Utils.swift in Sources */,
+				EA1A594A22FB25AA003EAE8B /* Loader.swift in Sources */,
+				EA1A594122FA3E85003EAE8B /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72BDD822EB37A300D137A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72BDE122EB37A300D137A9 /* Desfio_IntercorpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA72BDDE22EB37A300D137A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA72BDC422EB37A200D137A9 /* Desfio Intercorp */;
+			targetProxy = EA72BDDD22EB37A300D137A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA72BDCC22EB37A200D137A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA72BDCD22EB37A200D137A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA72BDD422EB37A300D137A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA72BDD522EB37A300D137A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA72BDE322EB37A300D137A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA72BDE422EB37A300D137A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA72BDE622EB37A300D137A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66ED3D27FD8F6D3ED74C5E5 /* Pods-Desfio Intercorp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Desfio Intercorp/Desfio Intercorp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SC58JH4A6;
+				INFOPLIST_FILE = "Desfio Intercorp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intercorp.Desfio-Intercorp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA72BDE722EB37A300D137A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAED8C4517389EEEC05C5D1 /* Pods-Desfio Intercorp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Desfio Intercorp/Desfio Intercorp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SC58JH4A6;
+				INFOPLIST_FILE = "Desfio Intercorp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intercorp.Desfio-Intercorp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EA72BDE922EB37A300D137A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5D3D361C28866D121A1D04 /* Pods-Desfio IntercorpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desfio IntercorpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intercorp.Desfio-IntercorpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desfio Intercorp.app/Desfio Intercorp";
+			};
+			name = Debug;
+		};
+		EA72BDEA22EB37A300D137A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECC990BD4571DBBB3299894 /* Pods-Desfio IntercorpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desfio IntercorpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intercorp.Desfio-IntercorpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desfio Intercorp.app/Desfio Intercorp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA72BDC022EB37A200D137A9 /* Build configuration list for PBXProject "Desfio Intercorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72BDE322EB37A300D137A9 /* Debug */,
+				EA72BDE422EB37A300D137A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72BDE522EB37A300D137A9 /* Build configuration list for PBXNativeTarget "Desfio Intercorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72BDE622EB37A300D137A9 /* Debug */,
+				EA72BDE722EB37A300D137A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72BDE822EB37A300D137A9 /* Build configuration list for PBXNativeTarget "Desfio IntercorpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72BDE922EB37A300D137A9 /* Debug */,
+				EA72BDEA22EB37A300D137A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA72BDCF22EB37A200D137A9 /* Desfio_Intercorp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA72BDD022EB37A200D137A9 /* Desfio_Intercorp.xcdatamodel */,
+			);
+			currentVersion = EA72BDD022EB37A200D137A9 /* Desfio_Intercorp.xcdatamodel */;
+			path = Desfio_Intercorp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA72BDBD22EB37A200D137A9 /* Project object */;
+}

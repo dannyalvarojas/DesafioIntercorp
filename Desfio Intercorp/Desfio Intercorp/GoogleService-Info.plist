@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>74567297955-uk4c4vok3h9nl0e7vkjcpo2d1j3s8jbl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.74567297955-uk4c4vok3h9nl0e7vkjcpo2d1j3s8jbl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_1vvevjYZ8C7RmRreYhEgghw7qsLzfnk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>74567297955</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.intercorp.Desfio-Intercorp</string>
+	<key>PROJECT_ID</key>
+	<string>prueba-65399</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prueba-65399.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:74567297955:ios:fc17a3c0334a5050</string>
+	<key>DATABASE_URL</key>
+	<string>https://prueba-65399.firebaseio.com</string>
+</dict>
+</plist>
